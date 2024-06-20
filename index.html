@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title>Real-time Calculator with JavaScript</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="row align-items-center justify-content-between flex-wrap p-1 p-sm-2">
+        <div class="col-12 col-lg">
+            <h1 class="mt-0 mb-0"><a href="#" class="text-shadow-none text-decoration-none">Real-time Calculator with
+                    JavaScript</a>
+            </h1>
+            <p class="mt-0 mb-0 fg-secondary">- Anirban Chanda</p>
+        </div>
+        <div class="col d-flex justify-content-start justify-content-lg-end">
+            <a href="https://github.com/Anirban-Chanda/MainFlow-Task-3/">
+                GitHub Repository
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-start justify-content-center">
+            <div class="col-12 col-md d-flex flex-column">
+                <h2 class="mb-0">Full Stack Web Development Internship</h2>
+                <small>Main Flow Services and Technologies </small>
+
+                <div>
+                    <h4 class="mb-0">Task 3: Interactive Elements with Javascript</h4>
+                    <small class="fg-secondary">This is a realtime Claculator that user JavaScript based Dynamic content
+                        updates to display
+                        results as soon as input is typed.</small>
+                </div>
+                <div style="display:flex; justify-content: center;">
+                    <div class="p-1 mt-3">
+                        <div class="calc-display">
+                            <input type="text" class="calc-input" id="calc-input" oninput="answer()">
+                            <div class="calc-answer" id="calc-answer"></div>
+                        </div>
+
+                        <div id="calc-buttons" class="calc-buttons">
+                            <div style="display: flex;">
+                                <button>sin</button>
+                                <button>1</button>
+                                <button>2</button>
+                                <button>3</button>
+                                <button>AC</button>
+                            </div>
+
+                            <div style="display: flex;">
+                                <button>cos</button>
+                                <button>4</button>
+                                <button>5</button>
+                                <button>6</button>
+                                <button>+</button>
+                            </div>
+
+                            <div style="display: flex;">
+                                <button>Tan</button>
+                                <button>7</button>
+                                <button>8</button>
+                                <button>9</button>
+                                <button>-</button>
+                            </div>
+
+                            <div style="display: flex;">
+                                <button>log</button>
+                                <button>clear</button>
+                                <button>0</button>
+                                <button>.</button>
+                                <button>*</button>
+                            </div>
+
+                            <div style="display: flex;">
+                                <button>!</button>
+                                <button>(</button>
+                                <button>)</button>
+                                <button>^</button>
+                                <button>/</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
